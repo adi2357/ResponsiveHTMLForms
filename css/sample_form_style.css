@@ -45,6 +45,7 @@ label {
 }
 
 input {
+    margin-left: 1px;
     flex: auto;
 }
 
@@ -54,7 +55,19 @@ button {
 }
 
 error-output {
+    margin-left: 3px;
     font-size: 12px;
     font-style: italic;
     color: red;
+}
+
+required {
+    color: red;
+}
+
+valid-message {
+    font-size: 12px;
+    color: green;
+    margin-left: 2px;
+    font-weight: bold;
 }
