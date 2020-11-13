@@ -41,7 +41,7 @@ button {
 label {
     text-align: right;
     margin-right: 2%;
-    width: 30%;
+    width: 31%;
 }
 
 input {
@@ -55,7 +55,7 @@ button {
 }
 
 error-output {
-    margin-left: 3px;
+    margin-left: 2px;
     font-size: 12px;
     font-style: italic;
     color: red;
@@ -70,4 +70,30 @@ valid-message {
     color: green;
     margin-left: 2px;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 360px) and (min-width: 320px) {
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    label {
+        width: 40%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    label {
+        width: 45%;
+        font-size: 12px;
+    }
+    input {
+        width: 55%;
+        margin-left: 2px;
+    }
 }
